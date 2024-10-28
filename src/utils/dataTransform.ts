@@ -124,7 +124,7 @@ export const generateNodesAndLinks = (innerRadius: number, outerRadius: number) 
     links.push({
       source: previousSkill!,
       target: Array.from(uniqueSkills)[0],
-      lineStyle: { color: "#00A1FF", width: 2, curveness: 0 },
+      lineStyle: { color: "#ADADAD", width: 4, curveness: 0.05 },
     });
   }
 
